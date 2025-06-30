@@ -6,6 +6,12 @@ Elevate Labs Internship Task
 
 This project involves capturing and analyzing live network traffic using Wireshark. The primary aim is to understand the usage and structure of key internet protocols during real-time activity.
 
+## Tools Used
+
+- Wireshark (for packet capture and protocol analysis)
+- Web browser (to generate HTTP and DNS traffic)
+- Command Prompt / Terminal (to run ping and traceroute commands)
+
 ## Steps Performed
 
 - Installed and configured Wireshark on a Windows system.
