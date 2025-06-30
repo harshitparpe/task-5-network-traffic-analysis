@@ -1,0 +1,27 @@
+Network Traffic Analysis Report – Task 5
+
+Objective:
+To capture live network packets using Wireshark and analyze them to understand different internet communication protocols.
+
+Analysis Summary:
+
+1. HTTP (HyperText Transfer Protocol)
+- Observed traffic over port 80 including GET requests and server responses.
+- Provided insight into how browsers fetch resources from websites.
+- Captured packet example: GET /index.html and corresponding 200 OK response.
+
+2. DNS (Domain Name System)
+- UDP traffic on port 53 used to resolve domain names like www.google.com to IP addresses.
+- Response packets showed multiple IP addresses for redundancy.
+
+3. TCP (Transmission Control Protocol)
+- Transport layer protocol used by HTTP and DNS.
+- Captured full TCP handshake process (SYN, SYN-ACK, ACK).
+- Observed sequence numbers, acknowledgment flags, and session teardown (FIN, ACK).
+
+4. ICMP (Internet Control Message Protocol)
+- Used during ping commands to check connectivity.
+- Echo Request and Echo Reply messages captured with varying TTL values.
+
+Conclusions:
+The exercise demonstrated the layered structure of network communications. Each protocol serves a distinct function in ensuring reliable data delivery, name resolution, and diagnostics. Wireshark's detailed view of each packet enabled granular inspection of real-world internet traffic in motion.
